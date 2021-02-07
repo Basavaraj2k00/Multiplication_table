@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <center>
+        <div>
+            <table cellspacing="0">
+                <form name="form">
+
+
+                    <tr>
+                        <th colspan="2">
+                            <h2 align="center">Multiplication Table</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="val">Enter rows : </label>
+                        </th>
+                        <th>
+                            <input type="number" name="num1" placeholder="10" id="num1" autocomplete="off" required
+                                autofocus>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="num2">From where : </label>
+                        </th>
+                        <th>
+                            <input type="email" name="num3" placeholder="1" id="num3" autocomplete="off" required>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="num2">To where : </label>
+                        </th>
+                        <th>
+                            <input type="number" name="num2" placeholder="10" id="num2" autocomplete="off" required>
+                        </th>
+                    </tr>
+                    <!-- <tr>
+                            <th><label>Result : </label></th>
+                            <th> <textarea name="res" id="res" cols="30" rows="20" disabled></textarea>
+                                    </th>
+                            <th><input type="text" name="res" disabled></th>
+                        </tr> -->
+
+            </table>
+            </form>
+            <br>
+            <table cellspacing="0">
+                
+                <tr>
+                    <th><input type="submit" value="Calculate" onclick="mult(num1.value,num2.value,num3.value)"></th>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <script src="mult.js"></script>
+</body>
+</html>

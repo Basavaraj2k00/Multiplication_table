@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div {
+
+
+    border: 10px groove yellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
